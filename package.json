@@ -1,0 +1,32 @@
+{
+  "name": "pleasetestmyapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "latest",
+    "@prisma/client": "5.20.0",
+    "autoprefixer": "^10.6.1",
+    "clsx": "latest",
+    "lucide-react": "1.59.0",
+    "next": "latest",
+    "next-auth": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "postcss": "^8.5.31",
+    "prisma": "5.20.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "latest"
+  }
+}
